@@ -18,7 +18,7 @@ const Bar = () => {
     const colorScale = scaleLinear()
       .domain([75, 100, 150])
       .range(['green', 'orange', 'red'])
-      .clamp(true) // below 75 still green, above 300 still red.
+      .clamp(true) // below 75 still green, above 300 still red
 
     const yAxis = axisLeft(yScale).ticks(10)
     svgBar.select('.y-axis').call(yAxis)
