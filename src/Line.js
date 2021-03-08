@@ -21,7 +21,6 @@ function Line() {
       .domain([0, data.length - 1])
       .range([0, 300])
 
-    const highestScore = [...data].sort((a, b) => b - a)[0]
     const yScale = scaleLinear().domain([0, 65]).range([150, 0])
 
     const xAxis = axisBottom(xScale)
