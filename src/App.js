@@ -7,8 +7,8 @@ function App() {
   return (
     <StyledApp>
       <Bar />
-      {/* <Circle />
-      <Line /> */}
+      <Circle />
+      <Line />
     </StyledApp>
   )
 }

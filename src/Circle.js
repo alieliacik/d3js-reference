@@ -14,12 +14,12 @@ function Circle() {
       .attr('class', 'updated')
       .attr('r', (val) => val)
       .attr('cx', (val) => val)
-      .attr('cy', (val) => val)
+      .attr('cy', (val) => val * 4)
   }, [data])
 
   return (
     <div>
-      <svg ref={circleSvgRef}></svg>
+      <svg className='shadow' ref={circleSvgRef}></svg>
     </div>
   )
 }

@@ -1,0 +1,146 @@
+{
+  "AvailableScoreSelections": [
+    "Visitors",
+    "Visits",
+    "AveragePagesVisited",
+    "AverageVisitTime",
+    "KPI#1"
+  ],
+  "DefaultScore": "Visitors",
+  "KPICardTarget": [
+    {
+      "Name": "Visitors",
+      "Score": 56,
+      "Label": "vs target",
+      "Respondents": 203
+    }
+  ],
+  "DropDownSelections": [
+    {
+      "index": 1,
+      "options": [
+        {
+          "category": "Recent",
+          "id": 1,
+          "name": "123.html",
+          "scores": {
+            "Visitors": 64,
+            "Visits": 82,
+            "Average Pages Visited": 75,
+            "Average Visit Time": 88,
+            "KPI 1": 72
+          }
+        },
+        {
+          "category": "URL",
+          "id": 2,
+          "name": "128.html",
+          "scores": {
+            "Visitors": 35,
+            "Visits": 65,
+            "Average Pages Visited": 45,
+            "Average Visit Time": 88,
+            "KPI 1": 78
+          }
+        },
+        {
+          "category": "Segment",
+          "id": 3,
+          "name": "Segment B",
+          "scores": {
+            "Visitors": 82,
+            "Visits": 87,
+            "Average Pages Visited": 77,
+            "Average Visit Time": 58,
+            "KPI 1": 64
+          }
+        }
+      ],
+      "selected": null
+    },
+    {
+      "index": 2,
+      "options": [
+        {
+          "category": "Recent",
+          "id": 1,
+          "name": "125.html",
+          "scores": {
+            "Visitors": 64,
+            "Visits": 82,
+            "Average Pages Visited": 75,
+            "Average Visit Time": 88,
+            "KPI 1": 72
+          }
+        },
+        {
+          "category": "URL",
+          "id": 2,
+          "name": "139.html",
+          "scores": {
+            "Visitors": 35,
+            "Visits": 65,
+            "Average Pages Visited": 45,
+            "Average Visit Time": 88,
+            "KPI 1": 78
+          }
+        },
+        {
+          "category": "Segment",
+          "id": 3,
+          "name": "Segment A",
+          "scores": {
+            "Visitors": 82,
+            "Visits": 88,
+            "Average Pages Visited": 78,
+            "Average Visit Time": 65,
+            "KPI 1": 82
+          }
+        }
+      ],
+      "selected": null
+    },
+    {
+      "index": 3,
+      "options": [
+        {
+          "category": "Recent",
+          "id": 1,
+          "name": "123.html",
+          "scores": {
+            "Visitors": 34,
+            "Visits": 78,
+            "Average Pages Visited": 76,
+            "Average Visit Time": 54,
+            "KPI 1": 56
+          }
+        },
+        {
+          "category": "URL",
+          "id": 2,
+          "name": "128.html",
+          "scores": {
+            "Visitors": 43,
+            "Visits": 23,
+            "Average Pages Visited": 65,
+            "Average Visit Time": 54,
+            "KPI 1": 12
+          }
+        },
+        {
+          "category": "Segment",
+          "id": 3,
+          "name": "Segment B",
+          "scores": {
+            "Visitors": 82,
+            "Visits": 87,
+            "Average Pages Visited": 77,
+            "Average Visit Time": 58,
+            "KPI 1": 64
+          }
+        }
+      ],
+      "selected": null
+    }
+  ]
+}
